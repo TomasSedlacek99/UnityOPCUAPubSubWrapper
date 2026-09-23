@@ -162,7 +162,7 @@ void Update() {
 * Reštartujte Unity Editor po pridaní DLL.
 
 
-* **Dáta neodiaľujú / neprichádzajú:**
+* **Dáta sa neodosielajú / neprichádzajú:**
 * Skontrolujte Firewall (Port 1883 pre MQTT).
 * Overte, či sa `Topic` v Publisherovi a Subscriberovi presne zhoduje (Case Sensitive).
 * Použite externý nástroj (napr. MQTT Explorer) na overenie, či dáta reálne chodia na broker.
