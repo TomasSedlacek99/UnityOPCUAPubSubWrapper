@@ -177,4 +177,13 @@ void Update() {
 
 ## 📄 Licencia
 
-Tento projekt je poskytovaný "tak ako je" pre edukačné a vývojové účely. Implementácia využíva komponenty OPC Foundation .NET Standard Stack.
+Tento projekt (skripty `ModularPublisherUI.cs`, `SubscriberUI.cs` a súvisiaci kód v tomto repozitári) je licencovaný pod **MIT licenciou** — pozri súbor [LICENSE](LICENSE) s plným znením.
+
+Priečinok `Assets/Plugins` obsahuje binárne (.dll) knižnice tretích strán, ktoré tento projekt využíva, ale nevlastní, a ktoré podliehajú vlastným licenčným podmienkam ich autorov:
+
+* `MQTTnet.dll` — MIT License
+* `Newtonsoft.Json.dll` — MIT License
+* `Opc.Ua.Core.dll`, `Opc.Ua.PubSub.dll`, `Opc.Ua.Security.Certificates.dll`, `Opc.Ua.Types.dll` — súčasť OPC Foundation .NET Standard Stacku, podlieha licenčným podmienkam OPC Foundation
+* `Microsoft.Extensions.*.dll`, `Microsoft.Bcl.AsyncInterfaces.dll`, `System.*.dll` — súčasti .NET runtime knižníc (Microsoft, MIT License)
+
+Pred komerčným nasadením odporúčame overiť licenčné podmienky OPC Foundation stacku samostatne, keďže tie sa spravujú mimo tohto repozitára.
